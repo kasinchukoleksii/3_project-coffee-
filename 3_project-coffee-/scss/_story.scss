@@ -1,0 +1,39 @@
+#Story {
+  width: 100%;
+  height: 572px;
+  background-color: #222327;
+  .K{
+    z-index: 1;
+    position: absolute;
+    width: 12%;
+    padding-left: 15%;
+    padding-top: 3%;
+  }
+  .Kstory {
+    position: relative;
+    font-size: 30px;
+    z-index: 2;
+    margin: 0;
+    padding-left: 22%;
+    padding-top: 9%;
+    h2{
+      color: #ffffff;
+      margin: 0 0 35px;
+    }
+  }
+
+  .OurStory{
+    display: flex;
+    width: 50%;
+    border-left: 4px solid #BD836D;
+    padding-left: 40px;
+    margin: 0;
+    p{
+      font-size: 15px;
+      width: 50%;
+      text-decoration: none;
+      text-align: left;
+      color: #ffffff;
+    }
+  }
+}

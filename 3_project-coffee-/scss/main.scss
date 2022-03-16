@@ -1,0 +1,25 @@
+body{
+  max-width: 1600px;
+  margin: 0 auto;
+  height: auto;
+}
+body html{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  width: 100%;
+}
+body a{
+  text-decoration: none;
+}
+
+
+@import 'header';
+
+@import 'processmenu';
+
+@import 'story';
+
+@import 'link';
+
+@import 'footer';

@@ -1,0 +1,159 @@
+body {
+  max-width: 1600px;
+  margin: 0 auto;
+  height: auto; }
+
+body html {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  width: 100%; }
+
+body a {
+  text-decoration: none; }
+
+#Header {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../img/header.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center; }
+  #Header .TopMenu {
+    text-decoration: none;
+    display: inline-flex;
+    text-align: center;
+    padding: 0; }
+    #Header .TopMenu ul {
+      width: 100%; }
+    #Header .TopMenu li {
+      padding: 0 20px;
+      text-align: center;
+      text-decoration: none;
+      list-style-type: none;
+      width: 100px; }
+      #Header .TopMenu li a {
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 20px; }
+  #Header h1 {
+    margin-top: 247px;
+    font-size: 60px;
+    text-align: center;
+    color: #ffffff; }
+  #Header p {
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 90px;
+    color: #ffffff; }
+
+#ProcessMenu {
+  display: flex;
+  height: 100%;
+  width: 100%; }
+  #ProcessMenu #Process {
+    width: 50%;
+    height: 100%;
+    background-image: url("../img/press.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center; }
+  #ProcessMenu #OurMenu {
+    width: 50%;
+    height: 100%;
+    background-image: url("../img/menu.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center; }
+  #ProcessMenu h1 {
+    margin-top: 247px;
+    font-size: 60px;
+    text-align: center;
+    color: #ffffff; }
+  #ProcessMenu p {
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 90px;
+    color: #ffffff; }
+
+#Story {
+  width: 100%;
+  height: 572px;
+  background-color: #222327; }
+  #Story .K {
+    z-index: 1;
+    position: absolute;
+    width: 12%;
+    padding-left: 15%;
+    padding-top: 3%; }
+  #Story .Kstory {
+    position: relative;
+    font-size: 30px;
+    z-index: 2;
+    margin: 0;
+    padding-left: 22%;
+    padding-top: 9%; }
+    #Story .Kstory h2 {
+      color: #ffffff;
+      margin: 0 0 35px; }
+  #Story .OurStory {
+    display: flex;
+    width: 50%;
+    border-left: 4px solid #BD836D;
+    padding-left: 40px;
+    margin: 0; }
+    #Story .OurStory p {
+      font-size: 15px;
+      width: 50%;
+      text-decoration: none;
+      text-align: left;
+      color: #ffffff; }
+
+#Link {
+  width: 100%;
+  height: 100%; }
+  #Link ul {
+    display: inline-flex;
+    height: 100%;
+    padding: 0;
+    margin: 0; }
+  #Link img {
+    width: 100%;
+    height: 100%; }
+
+#Footer {
+  width: 100%;
+  height: 390px;
+  background-color: #2E2F34;
+  text-align: center; }
+  #Footer h1 {
+    font-size: 45px;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 0;
+    padding-top: 40px; }
+  #Footer p {
+    font-size: 30px;
+    text-align: center;
+    color: #ffffff; }
+  #Footer input {
+    background-color: #2E2F34;
+    font-size: 25px;
+    color: #6F717C;
+    text-align: center;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0; }
+
+#downtex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  height: 60px;
+  background-color: #232428; }
+  #downtex p {
+    color: #6F717C; }
